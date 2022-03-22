@@ -51,14 +51,14 @@ extension String {
     
     func toDouble() -> Double? {
         let clearedText = removeNonNumbers()
-        // TODO: From upay. Clarify why isNotEmpty not recognizing
+//         TODO: From another project. Clarify why isNotEmpty not recognizing
 //        guard clearedText.isNotEmpty else { return 0 }
         return Double(clearedText)
     }
     
     func toInt() -> Int? {
         let clearedText = removeNonDigits()
-        // TODO: From upay. Clarify why isNotEmpty not recognizing
+        // TODO: From another project. Clarify why isNotEmpty not recognizing
 //        guard clearedText.isNotEmpty else { return 0 }
         return Int(clearedText)
     }

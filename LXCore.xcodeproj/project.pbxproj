@@ -50,15 +50,10 @@
 		CE9B9D5C27E99DDA00DB3F2E /* Observables+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3027E99DDA00DB3F2E /* Observables+Extended.swift */; };
 		CE9B9D5D27E99DDA00DB3F2E /* Observable+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3127E99DDA00DB3F2E /* Observable+Bind.swift */; };
 		CE9B9D5E27E99DDA00DB3F2E /* UIView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3327E99DDA00DB3F2E /* UIView+Localization.swift */; };
-		CE9B9D5F27E99DDA00DB3F2E /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3427E99DDA00DB3F2E /* LanguageManager.swift */; };
 		CE9B9D6027E99DDA00DB3F2E /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3527E99DDA00DB3F2E /* Bundle+Localization.swift */; };
 		CE9B9D6127E99DDA00DB3F2E /* UIView+Autolocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3627E99DDA00DB3F2E /* UIView+Autolocalization.swift */; };
 		CE9B9D6227E99DDA00DB3F2E /* UIBarItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3727E99DDA00DB3F2E /* UIBarItem+Localization.swift */; };
 		CE9B9D6327E99DDA00DB3F2E /* Codable+Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D3827E99DDA00DB3F2E /* Codable+Copy.swift */; };
-		CE9B9D6A27E9E05300DB3F2E /* GradientArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D6627E9E05300DB3F2E /* GradientArcView.swift */; };
-		CE9B9D6B27E9E05300DB3F2E /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D6727E9E05300DB3F2E /* ActivityIndicatorView.swift */; };
-		CE9B9D6C27E9E05300DB3F2E /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D6827E9E05300DB3F2E /* GradientButton.swift */; };
-		CE9B9D6D27E9E05300DB3F2E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9D6927E9E05300DB3F2E /* GradientView.swift */; };
 		FDCDDF6BC36F94DE429C74EE /* Pods_LXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15E7DA40B2750AC6F060DD3 /* Pods_LXCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,15 +115,10 @@
 		CE9B9D3027E99DDA00DB3F2E /* Observables+Extended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observables+Extended.swift"; sourceTree = "<group>"; };
 		CE9B9D3127E99DDA00DB3F2E /* Observable+Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Bind.swift"; sourceTree = "<group>"; };
 		CE9B9D3327E99DDA00DB3F2E /* UIView+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Localization.swift"; sourceTree = "<group>"; };
-		CE9B9D3427E99DDA00DB3F2E /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		CE9B9D3527E99DDA00DB3F2E /* Bundle+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Localization.swift"; sourceTree = "<group>"; };
 		CE9B9D3627E99DDA00DB3F2E /* UIView+Autolocalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Autolocalization.swift"; sourceTree = "<group>"; };
 		CE9B9D3727E99DDA00DB3F2E /* UIBarItem+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarItem+Localization.swift"; sourceTree = "<group>"; };
 		CE9B9D3827E99DDA00DB3F2E /* Codable+Copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Copy.swift"; sourceTree = "<group>"; };
-		CE9B9D6627E9E05300DB3F2E /* GradientArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientArcView.swift; sourceTree = "<group>"; };
-		CE9B9D6727E9E05300DB3F2E /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
-		CE9B9D6827E9E05300DB3F2E /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
-		CE9B9D6927E9E05300DB3F2E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D14392F5A0455EAF1C8A1FC4 /* Pods-LXCore-LXCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCore-LXCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-LXCore-LXCoreTests/Pods-LXCore-LXCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D15E7DA40B2750AC6F060DD3 /* Pods_LXCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -186,7 +176,6 @@
 		CE8C325627E361480011571D /* LXCore */ = {
 			isa = PBXGroup;
 			children = (
-				CE9B9D6427E9E05300DB3F2E /* UIComponents */,
 				CE9B9D0A27E99DDA00DB3F2E /* Extensions */,
 				CE9B9D0827E99DDA00DB3F2E /* Helpers */,
 				CE8C325727E361480011571D /* LXCore.h */,
@@ -284,31 +273,11 @@
 			isa = PBXGroup;
 			children = (
 				CE9B9D3327E99DDA00DB3F2E /* UIView+Localization.swift */,
-				CE9B9D3427E99DDA00DB3F2E /* LanguageManager.swift */,
 				CE9B9D3527E99DDA00DB3F2E /* Bundle+Localization.swift */,
 				CE9B9D3627E99DDA00DB3F2E /* UIView+Autolocalization.swift */,
 				CE9B9D3727E99DDA00DB3F2E /* UIBarItem+Localization.swift */,
 			);
 			path = Localization;
-			sourceTree = "<group>";
-		};
-		CE9B9D6427E9E05300DB3F2E /* UIComponents */ = {
-			isa = PBXGroup;
-			children = (
-				CE9B9D6527E9E05300DB3F2E /* ActivityIndicatorView */,
-				CE9B9D6827E9E05300DB3F2E /* GradientButton.swift */,
-				CE9B9D6927E9E05300DB3F2E /* GradientView.swift */,
-			);
-			path = UIComponents;
-			sourceTree = "<group>";
-		};
-		CE9B9D6527E9E05300DB3F2E /* ActivityIndicatorView */ = {
-			isa = PBXGroup;
-			children = (
-				CE9B9D6627E9E05300DB3F2E /* GradientArcView.swift */,
-				CE9B9D6727E9E05300DB3F2E /* ActivityIndicatorView.swift */,
-			);
-			path = ActivityIndicatorView;
 			sourceTree = "<group>";
 		};
 		E851AD4C70B484C3F7495FF9 /* Pods */ = {
@@ -509,14 +478,12 @@
 				CE9B9D4627E99DDA00DB3F2E /* UIView+Driver.swift in Sources */,
 				CE9B9D4127E99DDA00DB3F2E /* UINavigationController+Extensions.swift in Sources */,
 				CE9B9D4B27E99DDA00DB3F2E /* UIView+ShadowGradientExtensions.swift in Sources */,
-				CE9B9D6A27E9E05300DB3F2E /* GradientArcView.swift in Sources */,
 				CE9B9D5A27E99DDA00DB3F2E /* Double+Extensions.swift in Sources */,
 				CE9B9D4927E99DDA00DB3F2E /* UPCarouselFlowLayout.swift in Sources */,
 				CE9B9D4F27E99DDA00DB3F2E /* LAContext+Extensions.swift in Sources */,
 				CE9B9D6327E99DDA00DB3F2E /* Codable+Copy.swift in Sources */,
 				CE9B9D6027E99DDA00DB3F2E /* Bundle+Localization.swift in Sources */,
 				CE9B9D5B27E99DDA00DB3F2E /* Driver+Bind.swift in Sources */,
-				CE9B9D6B27E9E05300DB3F2E /* ActivityIndicatorView.swift in Sources */,
 				CE9B9D3F27E99DDA00DB3F2E /* UIColor+Extensions.swift in Sources */,
 				CE9B9D5127E99DDA00DB3F2E /* Reachability.swift in Sources */,
 				CE9B9D5927E99DDA00DB3F2E /* Data+Extensions.swift in Sources */,
@@ -527,7 +494,6 @@
 				CE9B9D5027E99DDA00DB3F2E /* ActivityIndicator.swift in Sources */,
 				CE9B9D5427E99DDA00DB3F2E /* Codable+Extended.swift in Sources */,
 				CE9B9D4427E99DDA00DB3F2E /* UITableView+Extensions.swift in Sources */,
-				CE9B9D6C27E9E05300DB3F2E /* GradientButton.swift in Sources */,
 				CE9B9D5227E99DDA00DB3F2E /* Encodable.swift in Sources */,
 				CE9B9D5727E99DDA00DB3F2E /* Optional+Extensions.swift in Sources */,
 				CE9B9D4C27E99DDA00DB3F2E /* UIViewController+GradientExtensions.swift in Sources */,
@@ -537,7 +503,6 @@
 				CE9B9D5E27E99DDA00DB3F2E /* UIView+Localization.swift in Sources */,
 				CE9B9D6227E99DDA00DB3F2E /* UIBarItem+Localization.swift in Sources */,
 				CE9B9D6127E99DDA00DB3F2E /* UIView+Autolocalization.swift in Sources */,
-				CE9B9D6D27E9E05300DB3F2E /* GradientView.swift in Sources */,
 				CE9B9D5527E99DDA00DB3F2E /* Weakify.swift in Sources */,
 				CE9B9D3A27E99DDA00DB3F2E /* Array+Extensions.swift in Sources */,
 				CE9B9D3D27E99DDA00DB3F2E /* UIViewController+Extensions.swift in Sources */,
@@ -546,7 +511,6 @@
 				CE9B9D5627E99DDA00DB3F2E /* LargeAmountFormatter.swift in Sources */,
 				CE9B9D5C27E99DDA00DB3F2E /* Observables+Extended.swift in Sources */,
 				CE9B9D4527E99DDA00DB3F2E /* UIScrollView+Extensions.swift in Sources */,
-				CE9B9D5F27E99DDA00DB3F2E /* LanguageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
