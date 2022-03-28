@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIDevice {
+public extension UIDevice {
     var hasNotch: Bool {
         let keyWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
         let bottom = keyWindow?.safeAreaInsets.bottom ?? 0

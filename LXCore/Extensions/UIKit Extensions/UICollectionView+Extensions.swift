@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UICollectionReusableView {
+public extension UICollectionReusableView {
     static var nibName: String {
         return NSStringFromClass(self).components(separatedBy: ".").last!
     }
@@ -14,7 +14,7 @@ extension UICollectionReusableView {
     }
 }
 
-extension UICollectionView {
+public extension UICollectionView {
 	func register<T: UICollectionViewCell>(_: T.Type) {
 		let bundle = Bundle(for: T.self)
 

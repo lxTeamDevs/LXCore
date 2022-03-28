@@ -1,6 +1,6 @@
 import Foundation
 
-enum AppLanguages: String, CaseIterable {
+public enum AppLanguages: String, CaseIterable {
     case english = "en"
     case armenian = "hy"
     case russian = "ru"
@@ -28,7 +28,7 @@ private class BundleEx: Bundle {
     }
 }
 
-extension Bundle {
+public extension Bundle {
     private class DispatchOnce {
         static let initialize: Void = {
             _ = exchangeBundles
